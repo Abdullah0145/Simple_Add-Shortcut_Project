@@ -1,0 +1,58 @@
+div.Popup {
+    border: 1px solid rgb(125, 123, 123);
+    background-color: white;
+    border-radius: 5px;
+    width: 500px;
+    padding:15px;
+}
+
+div.textfield input{
+   width: 99%;
+   height: 20px;
+   border:0;
+   background-color: rgb(234, 234, 234);
+   outline: 0;
+   padding:4px;
+   padding-left: 10px;
+}
+
+div.textfield input:focus{
+    border-bottom: 1px solid blue;
+}
+
+button {
+    padding:10px;
+    border: 0;
+    background-color: rgb(245, 242, 242);
+    color: gray;
+    
+}
+
+ /*in css there are many pseudo classes eg:  :hover, :active, :invalid, :focus ......etc*/
+ button:hover{
+    background-color:rgb(235, 249, 255);
+    color:rgb(17, 87, 201);
+}
+
+button:active{
+    background-color: skyblue;
+
+}
+
+button#cancelbtn{
+    color:rgb(17, 72, 167);
+}
+
+p{ 
+    margin:0;   
+}
+
+div.btns{
+    text-align:right;
+    margin-top:25px;
+}
+
+div.textfield{
+    margin-top:15px;
+    
+}
